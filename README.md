@@ -21,14 +21,14 @@ Before running the application, ensure you have the following installed:
 
 ### 3. Open the src/main/resources/application.properties file and update the following properties:
 
-spring.datasource.url=jdbc:mysql://localhost:3306/your-schema?useSSL=false
-spring.datasource.username=your-username
-spring.datasource.password=your-password 
+- spring.datasource.url=jdbc:mysql://localhost:3306/your-schema?useSSL=false
+- spring.datasource.username=your-username
+- spring.datasource.password=your-password 
 
 ### 4. Run the Application
 To run the application, use the following Maven command:
 
-mvn spring-boot:run
+    mvn spring-boot:run
 
 Access the application at http://localhost:8080.
 
